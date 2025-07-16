@@ -707,7 +707,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  right: 100px;
   bottom: 15px;
   z-index: 99999;
   background-color: var(--accent-color);
@@ -740,6 +740,19 @@ h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  .scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 50px;
+  bottom: 15px;
+  z-index: 99999;
+  background-color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
 }
 
 /*--------------------------------------------------------------
@@ -839,7 +852,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 75vh;
+  min-height: 65vh;
   position: relative;
   padding: 60px 0;
   display: flex;
@@ -933,6 +946,16 @@ section,
     font-size: 28px;
     line-height: 36px;
   }
+  .hero {
+  width: 100%;
+  min-height: 45vh;
+  position: relative;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  background: url("../img/team/i.webp") top left;
+  background-size: cover;
+}
 
   .hero p {
     font-size: 18px;
