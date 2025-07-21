@@ -1,2 +1,2 @@
 Fully working PHP/AJAX contact form script is available in the pro version of the template.
-You can buy it from: https://bootstrapmade.com/InternetProvidersDeals.com-bootstrap-business-template/
+You can buy it from: https://bootstrapmade.com/internetsolution.online-bootstrap-business-template/
